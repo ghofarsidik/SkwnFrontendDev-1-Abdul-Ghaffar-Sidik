@@ -1,0 +1,309 @@
+/* Base styles (Mobile-first) */
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  font-size: 14px;
+}
+
+header {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5%;
+}
+
+#footer-container {
+  background-color: #ffffff;
+  /* color: white; */
+  text-align: center;
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+
+#footer-container div {
+  /* width: 120px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1em;
+  flex-wrap: wrap;
+}
+
+#footer-container div div {
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#content #search {
+  display: flex;
+  flex-direction: column;
+}
+
+#search > p {
+  font-size: 36px;
+  font-weight: 700;
+  padding: 5%;
+  text-align: center;
+}
+
+#search > button {
+  font-size: 14px;
+  font-weight: 400;
+  color: #553b33;
+  padding: 10px 24px 10px 24px;
+  border-radius: 12px;
+  margin: 2% 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+button > img {
+  margin-right: 5%;
+}
+
+#icon {
+  width: 24px;
+  height: 24px;
+}
+
+#highlight {
+  background-image: url("../images/images/sofa.png");
+  background-size: 100% 100%;
+}
+
+#highlight > p {
+  color: white;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  padding: 24px 0px 44px 16px;
+}
+
+#highlight > div {
+  padding-left: 5%;
+}
+
+#value {
+  color: #e5f0b6;
+  background-color: #2f241f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 5%;
+
+  > p1 {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 300;
+  }
+  > p {
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    font-weight: 600;
+  }
+
+  > div > div {
+    display: flex;
+    align-items: center;
+    > p {
+      font-weight: 600;
+      font-size: 18px;
+    }
+  }
+
+  > div > div > div {
+    background-color: #e5f0b680;
+    padding: 8px;
+    border-radius: 8px;
+    color: white;
+    margin-right: 5%;
+  }
+}
+
+#partner {
+  color: #2f241f;
+  display: flex;
+  flex-direction: column;
+
+  div.div1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  p.p1 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 20.05px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+  }
+
+  p.p2 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+div.div2 {
+  display: flex;
+  justify-content: space-around;
+  margin: 25px 5%;
+}
+
+#recommendation {
+  margin: 5%;
+  p.p1 {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: center;
+  }
+  p.p2 {
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    font-weight: 700;
+    padding: 0 10%;
+  }
+
+  p.p3 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.78px;
+    padding: 5% 5%;
+  }
+
+  div.recommendation2 {
+    display: flex;
+    justify-content: space-around;
+    > img {
+      width: 30%;
+    }
+  }
+}
+
+#best_seller {
+  background-color: #2f241f;
+  color: #e5f0b6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5%;
+
+    /* > img {
+      width: 163px;
+      height: 217px;
+    } */
+
+    > div > button {
+      padding: 12px 16px 12px 16px;
+      font-size: 12px;
+      line-height: 16px;
+      border-radius: 12px;
+      background-color: #e5f0b6;
+      color: #2f241f;
+    }
+  }
+}
+
+#limited_deals {
+padding: 5%;
+
+  > p.p1 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  > p.p2 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+  }
+
+  > div {
+    display: flex;
+justify-content: center;
+
+  > input {
+    padding: 16px;
+    flex-grow: 1;
+    border: 0;
+  }
+  input::placeholder {
+    color: #553333;
+  }
+  > img {
+    background-color: #E5F0B6;
+    padding: 16px;
+    border-radius: 0px 10px 10px 0px;
+  }
+}
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+p {
+  margin: 10px 0;
+}
+
+/* nav {
+    display: block;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 0;
+}
+
+nav a:hover {
+    text-decoration: underline;
+} */
+
+/* Tablet and up */
+@media (min-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+
+
+.slider .slick-slide {
+  margin: 0 10px; /* Add margin to create space between slides */
+}
+
+.slider img {
+  width: 130px;
+  height: 195px;
+  border-radius: 12px;
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+
+.slider .slick-current img {
+  width: 156px; /* 150px * 1.2 */
+  height: 234px; /* 200px * 1.2 */
+  transition: width 0.3s ease, height 0.3s ease; /* Smooth transition */
+}

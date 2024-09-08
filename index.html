@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My jQuery Project</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+  </head>
+  <body>
+    <div id="header-container"></div>
+    <div id="content">
+      <div>
+        <div id="search">
+          <p>
+            The kind of <span style="color: #a48479">furniture</span> you have
+            been looking for
+          </p>
+          <button style="border: 0; background-color: rgb(229, 229, 197)">
+            <img id="icon" src="images/icon/magnifying_glass.svg"
+            alt="magnifyingGlass" ">
+            <p>SEARCH KATALOG</p>
+          </button>
+          <button style="border-color: #553b33">
+            <img id="icon" src="images/icon/circle_play.svg" alt="circlePlay" />
+            <p>WATCH VIDEOS</p>
+          </button>
+        </div>
+      </div>
+      <div id="highlight">
+        <p>HIGHLIGHTED PRODUCT</p>
+        <div style="padding-bottom: 25px">
+          <p
+            style="
+              color: #2f241f;
+              border-radius: 12px;
+              background-color: rgba(255, 255, 255, 0.5);
+              padding: 8px 16px 8px 16px;
+              width: fit-content;
+              font-size: 14px;
+            "
+          >
+            $329
+          </p>
+          <p style="color: white; font-size: 24px; line-height: 29.05px">
+            Pösht Sofa
+          </p>
+          <button
+            style="
+              padding: 12px 16px 12px 16px;
+              color: white;
+              background: #2f241f;
+              border-radius: 12px;
+              border: 0px;
+              display: flex;
+              align-items: center;
+            "
+          >
+            <p style="margin-right: 12px; width: 146px">VIEW DETAILS</p>
+            <img
+              style="width: 16px; height: 16px"
+              src="images/icon/rightchefron.svg"
+              alt="rightchefron"
+            />
+          </button>
+        </div>
+      </div>
+      <div id="value">
+        <p1>WHY CHOOSE US?</p1>
+        <p>We care about details and the quality of our products</p>
+        <div>
+          <div>
+            <div>
+              <img
+                id="icon"
+                src="images/icon/white_magnifying_glass.svg"
+                alt="magnifying_glass"
+              />
+            </div>
+            <p>MANUFACTURED WITH QUALITY MATERIALS</p>
+          </div>
+          <div>
+            <div style="width: 24px; height: 24px">
+              <p
+                style="
+                  text-align: center;
+                  font-size: 24px;
+                  line-height: 0;
+                  font-weight: 700;
+                "
+              >
+                5
+              </p>
+            </div>
+            <p>5 YEARS OF WARRANTY FOR EACH PROFUCT</p>
+          </div>
+          <div>
+            <div>
+              <img id="icon" src="images/icon/suitcase.svg" alt="suitcase" />
+            </div>
+            <p>20 YEARS OF EXPERTISE</p>
+          </div>
+        </div>
+      </div>
+      <div id="partner">
+        <div class="div1">
+          <p class="p1">25+</p>
+          <p class="p2">PARTNERED BRANDS</p>
+        </div>
+        <div class="div2">
+          <img src="images/logo/gusto.png" alt="gusto" />
+          <img src="images/logo/stripe.png" alt="stripe" />
+          <img src="images/logo/treehouse.png" alt="treehouse" />
+          <img src="images/logo/upwork.png" alt="upwork" />
+        </div>
+      </div>
+      <div id="recommendation">
+        <div class="recommendation1">
+          <p class="p1">Categories</p>
+          <p class="p2">Furniture Sets Recommendations</p>
+          <p class="p3">Bedroom</p>
+          <p class="p3">Living Room</p>
+          <p class="p3">Home Office</p>
+          <p class="p3">Gaming Room</p>
+        </div>
+        <div class="recommendation2">
+          <img src="images/images/recommendation1.png" alt="testing1" />
+          <img src="images/images/recommendation2.png" alt="testing2" />
+          <img src="images/images/recommendation3.png" alt="testing3" />
+        </div>
+      </div>
+      <div id="best_seller">
+        <div>
+          <div>
+            <p style="font-size: 14px; font-weight: 100">Categories</p>
+            <p style="font-size: 18px; font-weight: 700">
+              This month's best seller
+            </p>
+          </div>
+          <div>
+            <button>See more</button>
+          </div>
+        </div>
+        <div class="slider">
+          <div><img src="images/images/product1.png" alt="products1" /></div>
+          <div><img src="images/images/product2.png" alt="products2" /></div>
+          <div><img src="images/images/product3.png" alt="products3" /></div>
+          <div><img src="images/images/product4.png" alt="products4" /></div>
+        </div>
+      </div>
+      <div id="limited_deals">
+        <p class="p1">Limited Deals</p>
+        <p class="p2">Become a member and get 10% off of your first purchase</p>
+        <div>
+          <input type="text" placeholder="enter your email here" />
+          <img src="images/icon/bmail.svg" alt="mail" />
+        </div>
+      </div>
+    </div>
+    <div id="footer-container"></div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/slider.js"></script>
+  </body>
+</html>
